@@ -1,0 +1,80 @@
+body{
+background-color: #FFFFFF;
+min-height: 100% !important;
+height: 100;
+}
+#container{
+width: 400px;
+height: 400px;
+margin-left: auto;
+margin-right: auto;
+margin-top: 250px;
+background: url("pics/blue.jpg");
+padding: 3px;
+box-shadow: 10px 10px 5px #888888;
+}
+#login-menu{
+padding: 10px;
+margin-top: 10px;
+margin-left: 20px;
+font-family:arial; 
+font-weight:bold;
+}
+#un{
+padding:2px;
+margin-bottom: 8px;
+
+}
+#pw{
+padding: 2px;
+margin-bottom: 8px;
+
+}
+h2{
+text-align: center;
+font-family:arial;
+text-shadow:0px 1px 0px #e1e2ed;
+}
+.click{
+    margin-top: 10px;
+    alignment-adjust: central;
+	-moz-box-shadow: 3px 4px 0px 0px #899599;
+	-webkit-box-shadow: 3px 4px 0px 0px #899599;
+	box-shadow: 3px 4px 0px 0px #899599;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ededed), color-stop(1, #bab1ba));
+	background:-moz-linear-gradient(top, #ededed 5%, #bab1ba 100%);
+	background:-webkit-linear-gradient(top, #ededed 5%, #bab1ba 100%);
+	background:-o-linear-gradient(top, #ededed 5%, #bab1ba 100%);
+	background:-ms-linear-gradient(top, #ededed 5%, #bab1ba 100%);
+	background:linear-gradient(to bottom, #ededed 5%, #bab1ba 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ededed', endColorstr='#bab1ba',GradientType=0);
+	background-color:#ededed;
+	-moz-border-radius:15px;
+	-webkit-border-radius:15px;
+	border-radius:15px;
+	border:1px solid #d6bcd6;
+	display:inline-block;
+	cursor:pointer;
+	color:#3a8a9e;
+	font-family:arial;
+	font-size:17px;
+	padding:3px 13px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #e1e2ed;
+}
+.click:hover {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #bab1ba), color-stop(1, #ededed));
+	background:-moz-linear-gradient(top, #bab1ba 5%, #ededed 100%);
+	background:-webkit-linear-gradient(top, #bab1ba 5%, #ededed 100%);
+	background:-o-linear-gradient(top, #bab1ba 5%, #ededed 100%);
+	background:-ms-linear-gradient(top, #bab1ba 5%, #ededed 100%);
+	background:linear-gradient(to bottom, #bab1ba 5%, #ededed 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#bab1ba', endColorstr='#ededed',GradientType=0);
+	background-color:#bab1ba;
+}
+.click:active {
+	position:relative;
+	top:1px;
+}
+ 
+
